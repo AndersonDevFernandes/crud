@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./imagens/transport-logistics-products.jpg);
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+}
+
+.login-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  
+}
+
+.login-form-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 3px;
+}
+
+.box-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #FF7F50;
+  border-radius: 0.8rem;
+  margin-top: 6rem;
+  padding: 2rem;
+  backdrop-filter: blur(7px);
+}
+
+.form-field, .form-error{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+  border: 2px #FF7F50 solid;
+  border-radius: 4px;
+  background-color: black;
+  color: #FF7F50;
+}
+
+.button{
+  padding: 0.5rem;
+  background-color: transparent;
+  border: #FF7F50 2px solid;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  cursor: pointer;
+}
